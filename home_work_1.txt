@@ -1,0 +1,29 @@
+1)	pwd
+2)	mkdir dz_1
+3)	cd dz_1/
+4)	mkdir p1 p2 p3
+5)	cd p3/
+6)	touch f1.txt f2.txt f3.txt j1.json j2.json
+7)	mkdir p4 p5 p6
+8)	ls -la
+9)	vim f1.txt
+10)	i -  пишем текст
+11)	esc
+	:wq
+12)	cd ..
+13)	mv p3/f1.txt p1/f1.txt
+	mv p3/j1.json p1/j1.json
+14)	cp p1/f1.txt p3/p4/f1.txt
+	cp p3/f2.txt p3/p6/f2.txt
+15)	find . -name ‘f1.txt’
+16)	grep [а-я] p1/f1.txt
+17)	head -2 p1/f1.txt
+18)	tail -2 p1/f1.txt
+19)	less p3/p4/f1.txt
+20)	date
+
+
+Задание
+1)	curl https://api.quarantine.country/api/v1/regions
+2)	
+
