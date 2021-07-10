@@ -1,0 +1,19 @@
+1. На локальном репозитории создать ветки
+	- Postman - git branch Postman
+	- JMeter - git branch JMeter
+	- CheckLists - git branch CheckLists
+	- Bug Reports - git branch Bug_Reports
+	- SQL - git branch SQL
+	- Charles - git branch Charles
+	- Mobile testing - git branch Mobile_testing
+
+2. Запушить все ветки на внешний репозиторий
+	git push -u origin Postman 
+	git push -u origin JMeter
+	git push -u origin CheckLists
+	git push -u origin Bug_Reports
+	git push -u origin SQL
+	git push -u origin Charles
+	git push -u origin Mobile_testing
+
+3. 
