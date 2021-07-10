@@ -16,7 +16,7 @@
 14)	cp p1/f1.txt p3/p4/f1.txt
 	cp p3/f2.txt p3/p6/f2.txt
 15)	find . -name ‘f1.txt’
-16)	grep [а-я] p1/f1.txt
+16)	tail -f p1/f1.txt
 17)	head -2 p1/f1.txt
 18)	tail -2 p1/f1.txt
 19)	less p3/p4/f1.txt
@@ -25,5 +25,13 @@
 
 Задание
 1)	curl https://api.quarantine.country/api/v1/regions
-2)	
+2)	#!/bin/bash
+	mkdir scr
+	cd scr/
+	mkdir s1 s2 s3
+	cd s3/
+	touch r1.txt r2.txt r3.txt t1.json t2.json
+	mkdir s4 s5 s6	
+	ls
+	mv r1.txt r2.txt s4/	
 
