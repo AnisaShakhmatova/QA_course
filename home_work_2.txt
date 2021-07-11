@@ -16,4 +16,47 @@
 	git push -u origin Charles
 	git push -u origin Mobile_testing
 
-3. 
+3. В ветке Bug_Reports сделать документ со структурой баг репорта 
+	git checkout Bug_Reports 
+	touch Bag_Reports_Structure.txt
+	vim Bag_Reports_Structure.txt
+	1. Summary
+	2. Project
+	3. Component
+	4. Version
+	5. Severity
+	6. Priority
+	7. Steps to Reproduce
+	8. Actual Result
+	9. Expected Recult
+	10. Additional information
+
+4. Запушить структуру баг репорта на внешний репозиторий
+	git add Bag_Reports_Structure.txt
+	git commit -m "bug reports structure"
+	git push
+
+5. Вмержить ветку Bug Reports в main
+	git checkout main
+	git merge Bug_Reports
+
+6. Запушить main во внешний репозиторий
+	git push -u origin main
+
+7. В ветке main CheckLists набросить структуру чек листа
+	git checkout CheckLists
+	touch Checklists_structure.txt
+	vim Checklists_structure.txt
+	1. ID
+	2. Назначение
+	3. Шаги
+	4. Ожидаемый результат
+	5. Фактический результат
+
+8. Запушить структуру на внешний репозиторий
+	git add Checklists_structure.txt
+        git commit -m "Checklist structure"
+        git push
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+	Pull requests 
