@@ -59,4 +59,7 @@
         git push
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-	Pull requests 
+	Pull requests
+	New pull request
+	- Checklist
+	Create pull request -> Create pull request 
