@@ -25,5 +25,14 @@
 
 Задание
 1)	curl https://api.quarantine.country/api/v1/regions
-2)	
+2)	#!/bin/bash
+	mkdir scr
+	cd scr/
+	mkdir s1 s2 s3
+	cd s3/
+	touch r1.txt r2.txt r3.txt t1.json t2.json
+	mkdir s4 s5 s6	
+	ls
+	mv r1.txt r2.txt s4/	
+	
 
