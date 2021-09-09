@@ -63,5 +63,11 @@
 	New pull request
 	- Checklist
 	Create pull request -> Create pull request
+	Files changed
+	Conversition
+	Merge pull reguest
+	Confirm merge
+
+
 
  
