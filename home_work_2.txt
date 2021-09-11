@@ -29,8 +29,7 @@
 	7. Steps to Reproduce
 	8. Actual Result
 	9. Expected Recult
-	10. Additional information
-
+	10. Additional information 
 4. Запушить структуру баг репорта на внешний репозиторий
 	git add Bag_Reports_Structure.txt
 	git commit -m "bug reports structure"
@@ -67,7 +66,4 @@
 	Conversition
 	Merge pull reguest
 	Confirm merge
-
-
-
- 
+10. 
