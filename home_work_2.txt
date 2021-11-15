@@ -20,21 +20,19 @@
 	git checkout Bug_Reports 
 	touch Bag_Reports_Structure.txt
 	vim Bag_Reports_Structure.txt
-	1. Summary
-	2. Project
-	3. Component
-	4. Version
-	5. Severity
-	6. Priority
-	7. Steps to Reproduce
-	8. Actual Result
-	9. Expected Recult
-	10. Additional information 
+	1. Title
+	2. Environment
+	3. Priconditions
+	4. Steps to Reproduce
+	5. Actual Result
+	6. Expected Recult
+	7. Attachment
+	8. Priority
+	9. Severity 
 4. Запушить структуру баг репорта на внешний репозиторий
 	git add Bag_Reports_Structure.txt
 	git commit -m "bug reports structure"
 	git push
-
 5. Вмержить ветку Bug Reports в main
 	git checkout main
 	git merge Bug_Reports
@@ -66,6 +64,4 @@
 	Conversition
 	Merge pull reguest
 	Confirm merge
-10.
 
-11 
